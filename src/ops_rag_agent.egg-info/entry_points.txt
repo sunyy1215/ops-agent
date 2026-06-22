@@ -1,0 +1,2 @@
+[console_scripts]
+ops-rag-agent = ops_rag_agent.__main__:main

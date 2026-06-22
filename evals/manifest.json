@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "suites": {
+    "dialog": {
+      "path": "evals/dialog/core.jsonl",
+      "prompt_ids": ["supervisor.prepare_input", "dialog.planner"],
+      "owner": "platform-agent"
+    },
+    "ops": {
+      "path": "evals/ops/core.jsonl",
+      "prompt_ids": ["supervisor.prepare_input", "ops.planner"],
+      "owner": "platform-agent"
+    },
+    "rag": {
+      "path": "evals/rag/core.jsonl",
+      "prompt_ids": ["supervisor.prepare_input", "rag.answering"],
+      "owner": "platform-agent"
+    }
+  }
+}

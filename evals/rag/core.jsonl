@@ -1,0 +1,2 @@
+{"case_id":"rag-001","route":"rag","prompt_id":"rag.answering","input":"Search the internal knowledge base for rollback steps.","expected_checks":["returns_rag_route","includes_citations_when_available","keeps_grounded_answering"]}
+{"case_id":"rag-002","route":"rag","prompt_id":"rag.answering","input":"Find deployment manual details and answer only from retrieved evidence.","expected_checks":["builds_multiple_queries","separates_grounded_facts_from_assumptions"]}

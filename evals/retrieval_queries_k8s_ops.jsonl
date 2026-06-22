@@ -1,0 +1,45 @@
+{"query": "故障：ImagePullBackOff / ErrImagePull（镜像拉取失败） 怎么排查？需要哪些 kubectl 命令", "category": "zh", "expected_doc_ids": ["k8s-8"]}
+{"query": "故障：OOMKilled（内存不足被杀） 怎么排查？需要哪些 kubectl 命令", "category": "zh", "expected_doc_ids": ["k8s-6"]}
+{"query": "故障：Pod 一直 Terminating（删除不掉） 怎么排查？需要哪些 kubectl 命令", "category": "zh", "expected_doc_ids": ["k8s-36"]}
+{"query": "命令速查：Describe + Events（中文） 怎么排查？需要哪些 kubectl 命令", "category": "zh", "expected_doc_ids": ["k8s-47"]}
+{"query": "故障：Liveness probe failed（活性探针导致重启风暴） 怎么排查？需要哪些 kubectl 命令", "category": "zh", "expected_doc_ids": ["k8s-16"]}
+{"query": "故障：Ingress 访问 502/504，但集群内访问 Service 正常 怎么排查？需要哪些 kubectl 命令", "category": "zh", "expected_doc_ids": ["k8s-20"]}
+{"query": "命令速查：Logs（中文） 怎么排查？需要哪些 kubectl 命令", "category": "zh", "expected_doc_ids": ["k8s-49"]}
+{"query": "故障：NetworkPolicy 误拦截（超时但 DNS 正常） 怎么排查？需要哪些 kubectl 命令", "category": "zh", "expected_doc_ids": ["k8s-29"]}
+{"query": "故障：FailedScheduling / Pending（调度不上） 怎么排查？需要哪些 kubectl 命令", "category": "zh", "expected_doc_ids": ["k8s-12"]}
+{"query": "故障：CPU Throttling（限流导致延迟高） 怎么排查？需要哪些 kubectl 命令", "category": "zh", "expected_doc_ids": ["k8s-26"]}
+{"query": "故障：DNS 解析失败（no such host / NXDOMAIN） 怎么排查？需要哪些 kubectl 命令", "category": "zh", "expected_doc_ids": ["k8s-18"]}
+{"query": "故障：CrashLoopBackOff（反复崩溃重启） 怎么排查？需要哪些 kubectl 命令", "category": "zh", "expected_doc_ids": ["k8s-4"]}
+{"query": "5 分钟排障总览（中文） 怎么排查？需要哪些 kubectl 命令", "category": "zh", "expected_doc_ids": ["k8s-2"]}
+{"query": "术语表：常见状态（中文） 怎么排查？需要哪些 kubectl 命令", "category": "zh", "expected_doc_ids": ["k8s-54"]}
+{"query": "故障：Readiness probe failed（不 Ready，流量进不来） 怎么排查？需要哪些 kubectl 命令", "category": "zh", "expected_doc_ids": ["k8s-14"]}
+{"query": "How to troubleshoot Command Cheatsheet: Describe + Events? key kubectl commands", "category": "en", "expected_doc_ids": ["k8s-46"]}
+{"query": "How to troubleshoot Incident: High 5xx after rollout (canary/blue-green)? key kubectl commands", "category": "en", "expected_doc_ids": ["k8s-39"]}
+{"query": "How to troubleshoot Incident: NodeNotReady? key kubectl commands", "category": "en", "expected_doc_ids": ["k8s-23"]}
+{"query": "How to troubleshoot Incident: PV/PVC mount failures? key kubectl commands", "category": "en", "expected_doc_ids": ["k8s-37"]}
+{"query": "How to troubleshoot Incident: Pending + FailedScheduling (no nodes match)? key kubectl commands", "category": "en", "expected_doc_ids": ["k8s-13"]}
+{"query": "How to troubleshoot Prometheus Alert: KubeNodeNotReady? key kubectl commands", "category": "en", "expected_doc_ids": ["k8s-44"]}
+{"query": "How to troubleshoot # K8s Ops Troubleshooting Mini Knowledge Base (CN/EN Mixed)? key kubectl commands", "category": "en", "expected_doc_ids": ["k8s-1"]}
+{"query": "How to troubleshoot YAML Pattern: Separate Startup and Readiness? key kubectl commands", "category": "en", "expected_doc_ids": ["k8s-52"]}
+{"query": "How to troubleshoot Glossary: Common Pod States? key kubectl commands", "category": "en", "expected_doc_ids": ["k8s-53"]}
+{"query": "How to troubleshoot Incident: Pod stuck Terminating? key kubectl commands", "category": "en", "expected_doc_ids": ["k8s-35"]}
+{"query": "How to troubleshoot Incident: CrashLoopBackOff (app exits immediately)? key kubectl commands", "category": "en", "expected_doc_ids": ["k8s-5"]}
+{"query": "How to troubleshoot Incident: Service reachable inside cluster but not from Ingress? key kubectl commands", "category": "en", "expected_doc_ids": ["k8s-21"]}
+{"query": "How to troubleshoot Incident: Liveness probe failed (pods keep restarting)? key kubectl commands", "category": "en", "expected_doc_ids": ["k8s-17"]}
+{"query": "How to troubleshoot Incident: CNI plugin failure (pods stuck in ContainerCreating)? key kubectl commands", "category": "en", "expected_doc_ids": ["k8s-30"]}
+{"query": "How to troubleshoot Incident: Logs show \"Readiness probe failed: HTTP probe failed with statuscode: 503\"? key kubectl commands", "category": "en", "expected_doc_ids": ["k8s-40"]}
+{"query": "Incident: Pending + FailedScheduling (no nodes match) troubleshooting steps 中文怎么排查 Incident Pending FailedScheduling", "category": "mix", "expected_doc_ids": ["k8s-13"]}
+{"query": "命令速查：Describe + Events（中文） 怎么排查？ Describe Events Pod", "category": "mix", "expected_doc_ids": ["k8s-47"]}
+{"query": "故障：ImagePullBackOff / ErrImagePull（镜像拉取失败） 怎么排查？ ImagePullBackOff ErrImagePull Pod", "category": "mix", "expected_doc_ids": ["k8s-8"]}
+{"query": "故障：Liveness probe failed（活性探针导致重启风暴） 怎么排查？ Liveness probe failed", "category": "mix", "expected_doc_ids": ["k8s-16"]}
+{"query": "Prometheus Alert: KubeNodeNotReady troubleshooting steps 中文怎么排查 Prometheus Alert KubeNodeNotReady", "category": "mix", "expected_doc_ids": ["k8s-44"]}
+{"query": "故障：OOMKilled（内存不足被杀） 怎么排查？ OOMKilled Pod describe", "category": "mix", "expected_doc_ids": ["k8s-6"]}
+{"query": "故障：Pod 一直 Terminating（删除不掉） 怎么排查？ Pod Terminating finalizers", "category": "mix", "expected_doc_ids": ["k8s-36"]}
+{"query": "# K8s Ops Troubleshooting Mini Knowledge Base (CN/EN Mixed) troubleshooting steps 中文怎么排查 K8s Ops Troubleshooting", "category": "mix", "expected_doc_ids": ["k8s-1"]}
+{"query": "Incident: NodeNotReady troubleshooting steps 中文怎么排查 Incident NodeNotReady Symptoms", "category": "mix", "expected_doc_ids": ["k8s-23"]}
+{"query": "YAML Pattern: Separate Startup and Readiness troubleshooting steps 中文怎么排查 YAML Pattern Separate", "category": "mix", "expected_doc_ids": ["k8s-52"]}
+{"query": "故障：Ingress 访问 502/504，但集群内访问 Service 正常 怎么排查？ Ingress Service Pod", "category": "mix", "expected_doc_ids": ["k8s-20"]}
+{"query": "命令速查：Logs（中文） 怎么排查？ Logs kubectl pod", "category": "mix", "expected_doc_ids": ["k8s-49"]}
+{"query": "Incident: High 5xx after rollout (canary/blue-green) troubleshooting steps 中文怎么排查 Incident High after", "category": "mix", "expected_doc_ids": ["k8s-39"]}
+{"query": "Incident: PV/PVC mount failures troubleshooting steps 中文怎么排查 Incident PV/PVC mount", "category": "mix", "expected_doc_ids": ["k8s-37"]}
+{"query": "Command Cheatsheet: Describe + Events troubleshooting steps 中文怎么排查 Command Cheatsheet Describe", "category": "mix", "expected_doc_ids": ["k8s-46"]}
